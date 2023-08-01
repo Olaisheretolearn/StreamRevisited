@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+*{
+
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+body{
+    background-color: rgb(3, 4, 27);
+    color: white;
+}
+
+@media (max-width: 479px) {
+
+
+    body {
+        background-color: rgb(3, 3, 26);
+        margin: 0;
+
+        color: white;
+        overflow-x: hidden; 
+    }
+    
+
+    .frame {
+        transform-origin: 0 0; /* Ensures the scaling starts from the top left corner */
+        transform: scale(1.5); /* Adjust the scale as needed */
+        width: 66.66%; /* To counteract the scale, if your scale is 1.5, then width is 100% / 1.5 */
+        overflow: auto; 
+        margin-right: -5px;
+    
+    }
+    
+
+ 
+    .header{
+        position:absolute;
+        color: white;
+        top: 60%; 
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .title{
+        position:absolute;
+        color: white;
+        top: 30%; 
+        width: 100%;
+        font-weight: 700;
+      display: flex;
+      justify-content: center;
+     
+       
+    }
+
+    .instructions{
+        position:absolute;
+        color: white;
+        top: 40%; 
+        width: 40%;
+        font-weight: 700;
+        font-size: 10px;
+      display: flex;
+      justify-content: center; 
+      border: 1px solid white;
+      border-radius:10px;
+      padding:7px;
+      margin-left: 27%;
+    }
+
+    .right, .left{
+        border: 1px solid white;
+        padding:20px;
+        border-radius:9px;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color:white;
+    }
+
+    .dancing{
+        position:absolute;
+        color: white;
+        top: 72%;
+      display: flex;
+      margin-left:7%;
+      justify-content: center;
+      border-radius: 7px;;
+    }
+
+
+}
