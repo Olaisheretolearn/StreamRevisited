@@ -34,7 +34,7 @@ body{
         top: -350px; 
         left: 0; 
         width: 99%; 
-        height: 60%;
+        height: 80%;
         border: 3px solid rgb(42, 42, 165);
         margin-bottom: -944px;
     }
@@ -42,7 +42,7 @@ body{
     .header{
         position:absolute;
         color: white;
-        top: 60%; 
+        top: 70%; 
         width: 100%;
         display: flex;
         justify-content: space-around;
